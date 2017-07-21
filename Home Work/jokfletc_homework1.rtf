@@ -1,0 +1,121 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 name: John Fletcher\
+username: jokfletc\
+\
+\
+2.14\
+(a)\
+>>> s = 'goodbye'\
+>>> s[0] == 'g'\
+True\
+\
+(b)\
+>>> s[6] == 'g'\
+False\
+\
+(c)\
+>>> ('g'and 'a') in s[0:2]\
+False\
+\
+(d)\
+>>> s[len(s)-2] == 'x'\
+False\
+\
+(e)\
+>>> s[3] == 'd'\
+True\
+\
+(f)\
+>>> s[0] == s[6]\
+False\
+\
+(g)\
+>>> s[3:7] == 'tion'\
+False\
+\
+\
+\
+2.16\
+(a)\
+>>> a=6\
+>>> b=7\
+\
+(b)\
+>>> c = (a+b)/2\
+>>> c\
+6.5\
+\
+(c)\
+>>> inventory = ['paper','staples','pencils']\
+\
+(d)\
+>>> first = 'John'\
+>>> middle = 'Fitzgerald'\
+>>> last = 'Kennedy'\
+\
+(e)\
+>>> first+ ' '+middle+' '+last\
+'John Fitzgerald Kennedy'\
+\
+\
+\
+2.18\
+(a)\
+>>> flowers = ['rose','bougainvillea', 'yucca', 'marigold', 'daylilly ','lilly of the valley']\
+\
+(b)\
+>>> 'potato' not in flowers\
+True\
+\
+(c)\
+>>> thorny = flowers[0:3]\
+>>> thorny\
+['rose', 'bougainvillea', 'yucca']\
+\
+(d)\
+>>> poisonous = [flowers[-1]]\
+>>> poisonous\
+['lilly of the valley']\
+\
+(e)\
+>>> dangerous\
+['rose', 'bougainvillea', 'yucca', 'lilly of the valley']\
+\
+2.22\
+>>> lst = [3,7,-2,12,4]\
+>>> num_max = max(lst)\
+>>> num_min = min(lst)\
+>>> abs(num_max)+abs(num_min)\
+14\
+\
+\
+\
+2.28\
+(a)\
+>>> int((len(lst)/2))\
+2\
+\
+(b)\
+>>> lst[int((len(lst)/2))]\
+-2\
+\
+(c)\
+>>> sorted(lst, reverse = True)\
+[12, 7, 4, 3, -2]\
+\
+(d)\
+>>> num = lst[0]\
+>>> lst.remove(num)\
+>>> lst\
+[7, -2, 12]\
+>>> lst.append(num)\
+>>> lst\
+[7, -2, 12, 3]\
+\
+}
